@@ -90,7 +90,7 @@
 <!--Main Section Start-->
 <main id="main-site">
     
-    <!--Owl-Carousel Start-->
+    <!--Owl-Carousel Section Start-->
     <section id="banner-area">
         <div class="owl-carousel owl-theme">
             <div class="item">
@@ -107,9 +107,9 @@
             </div>
         </div>
     </section>
-    <!--Owl-Carousel End-->
+    <!--Owl-Carousel Section End-->
     
-    <!--Top Sale Start-->
+    <!--Top Sale Section Start-->
     <section id="top-sale">
         <div class="container py-5">
             <h4 class="font-rubik font-size-20">Top Sales</h4>
@@ -311,7 +311,67 @@
             <!--Top Sale Owl Carousel End-->
         </div>
     </section>
-    <!--Top Sale End-->
+    <!--Top Sale Section End-->
+    
+    <!--Special Price Section Start-->
+    <section id="special-price">
+        <div class="container">
+            <h4 class="font-rubik font-size-20">Special Price</h4>
+            <div id="filters" class="button-group text-end">
+                <button class="btn is-checked" data-filter="*">All Brand</button>
+                <button class="btn" data-filter=".Adidas">Adidas</button>
+                <button class="btn" data-filter=".Nike">Nike</button>
+                <button class="btn" data-filter=".Reebok">Reebok</button>
+                <button class="btn" data-filter=".Vans">Vans</button>
+            </div>
+            
+            <div class="grid">
+                <div class="grid-item Adidas border">
+                    <div class="item py-2" style="width: 200px;">
+                        <div class="product font-rale">
+                            <a href=""><img src="./assets/Products-Images/adidas_Superstar_XLG.jpg" alt="product" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Adidas Superstar XLG</h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>R1500</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Nike border">
+                    <div class="item py-2" style="width: 200px;">
+                        <div class="product font-rale">
+                            <a href=""><img src="./assets/Products-Images/Nice-Kicks-x-adidas.jpg" alt="product" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Adidas Superstar XLG</h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>R1500</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Special Price Section End-->
 
 
 </main>
@@ -321,23 +381,28 @@
 <footer>
 
 </footer>
-<!--Footer Section End-->
+<!-- Footer Section End -->
 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 <!-- Owl Carousel -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- isotope plugin cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha512-E/yP5UiPXb6VelX+dFLuUD+1IZw/Kz7tMncFTYbtoNSCdRZPFoGN3jZ2p27VUxHEkhbPiLuZhZpVEXxk9wAHCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 <!-- Custom JS -->
 <script src="customJs.js"></script>
+
 </body>
 </html>

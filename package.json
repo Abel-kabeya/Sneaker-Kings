@@ -8,5 +8,9 @@
     "start": "sass ./sass/style.scss style.css --watch"
   },
   "author": "Abel Kabeya",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.6.1"
+  }
 }
